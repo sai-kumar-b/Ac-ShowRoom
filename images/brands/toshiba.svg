@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 110" width="300" height="110"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eaf1fc"/><stop offset="1" stop-color="#d6e2f4"/></linearGradient>
+<linearGradient id="body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e3eaf5"/></linearGradient>
+<linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef3fa"/><stop offset="1" stop-color="#d3deee"/></linearGradient>
+<linearGradient id="floor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9a8b78"/><stop offset="1" stop-color="#76695a"/></linearGradient>
+</defs><rect x="3" y="3" width="294" height="104" rx="16" fill="#ffffff" stroke="#d0d9e8" stroke-width="3"/><text x="150" y="68" text-anchor="middle" font-family="Poppins, Arial, Helvetica, sans-serif" font-weight="800" font-size="30" letter-spacing="1" fill="#1f56d6">Toshiba</text></svg>
