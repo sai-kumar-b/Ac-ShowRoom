@@ -118,6 +118,51 @@ img { max-width: 100%; display: block; }
 .btn-block { width: 100%; justify-content: center; }
 .btn-sm { padding: 10px 20px; font-size: 0.85rem; }
 
+/* ===== Cities banner ===== */
+.cities-banner {
+  background: linear-gradient(90deg, var(--navy-900), var(--navy-800));
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.cities-banner-inner {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  font-size: 0.82rem;
+}
+.cities-label {
+  color: var(--accent-gold);
+  font-family: var(--font-head);
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.cities-list {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.cities-list span {
+  color: rgba(255,255,255,0.82);
+  padding: 3px 10px;
+  border-radius: var(--radius-pill);
+  background: rgba(255,255,255,0.06);
+  white-space: nowrap;
+}
+.cities-list span:last-child {
+  color: var(--sky-300);
+  background: transparent;
+  font-style: italic;
+}
+@media (max-width: 560px) {
+  .cities-banner-inner { gap: 8px; }
+  .cities-label { font-size: 0.72rem; }
+  .cities-list span { padding: 2px 8px; font-size: 0.76rem; }
+}
+
 /* ===== Header ===== */
 .site-header {
   position: sticky;
