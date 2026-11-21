@@ -849,10 +849,11 @@ section { padding: 80px 0; }
   .brand-tag { display: none; }
 }
 
-/* ===== Images ===== */
-.hero-img img { display: block; width: 100%; height: 100%; object-fit: cover; }
+/* ===== Inline SVG scenes ===== */
+.scene { display: block; }
+.hero-img .scene { width: 100%; height: 100%; }
 .brand-strip-inner { gap: 28px 32px; }
 .brand-card .logo-box { padding: 0; overflow: hidden; line-height: 0; }
-.brand-card .logo-box img { display: block; width: 150px; height: auto; }
-.cat-card .cat-img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 12px; margin-bottom: 16px; }
-.prod-img img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.brand-card .logo-box .scene { width: 150px; height: auto; aspect-ratio: 300 / 110; }
+.cat-card .cat-img { width: 100%; height: auto; aspect-ratio: 4 / 3; border-radius: 12px; margin-bottom: 16px; }
+.prod-img .scene { width: 100%; height: 100%; }
