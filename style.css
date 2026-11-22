@@ -446,7 +446,7 @@ section { padding: 80px 0; }
 }
 .prod-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-md); }
 .prod-img {
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1408 / 768;
   background: linear-gradient(135deg, var(--ice-100), var(--neutral-100));
   display: flex; align-items: center; justify-content: center;
   position: relative;
@@ -853,7 +853,10 @@ section { padding: 80px 0; }
 .scene { display: block; }
 .hero-img .scene { width: 100%; height: 100%; }
 .brand-strip-inner { gap: 28px 32px; }
-.brand-card .logo-box { padding: 0; overflow: hidden; line-height: 0; }
-.brand-card .logo-box .scene { width: 150px; height: auto; aspect-ratio: 300 / 110; }
-.cat-card .cat-img { width: 100%; height: auto; aspect-ratio: 4 / 3; border-radius: 12px; margin-bottom: 16px; }
-.prod-img .scene { width: 100%; height: 100%; }
+.brand-card .logo-box { padding: 0; overflow: hidden; line-height: 0; background: #fff; }
+.brand-card .logo-box img.scene {
+  width: 170px; height: 90px; padding: 10px 14px; object-fit: contain; background: #fff;
+}
+.brand-card.primary .logo-box img.scene { width: 200px; height: 106px; }
+.cat-card .cat-img { width: 100%; height: auto; aspect-ratio: 1408 / 768; object-fit: cover; border-radius: 12px; margin-bottom: 16px; }
+.prod-img img.scene { width: 100%; height: 100%; object-fit: cover; }
